@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Segoe UI', sans-serif;
+}
+.navbar
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: rgb(61, 118, 184);
+    padding: 15px;
+    color: white;
+}
+.navbar-left
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar-left a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-left a:hover
+{
+    text-decoration: none;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.navbar .home
+{
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+    background-color: rgb(61, 118, 184);
+}
+h1
+{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    animation: rainbowtext 1s infinite linear;
+}
+@keyframes rainbowtext
+{
+    0%
+    {
+        color: black;
+    }
+    15%
+    {
+        color: rgb(0, 47, 255);
+    }
+    30%
+    {
+        color: rgb(255, 0, 0);
+    }
+    45%
+    {
+        color: rgb(221, 255, 0);
+    }
+    60%
+    {
+        color: rgb(115, 255, 0);
+    }
+    75%
+    {
+        color: rgb(126, 0, 109);
+    }
+    90%
+    {
+        color: rgb(255, 111, 0);
+    }
+    100%
+    {
+        color: rgb(0, 0, 0);
+    }
+}

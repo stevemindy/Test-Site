@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: rgb(61, 118, 184);
+    padding: 15px;
+    color: white;
+}
+.navbar-left
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar-left a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-left a:hover
+{
+    color: #fff;
+    text-decoration: none;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.navbar-right a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-right a:hover
+{
+    color: #fff;
+    text-decoration: none;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.navbar-right .navbar-item
+{
+    border: 3px rgb(51,51,51) solid;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+.navbar-item
+{
+    padding-left: 20px;
+    cursor: pointer;
+}
+.main  
+{
+    height: 100vh;
+    background: linear-gradient(0deg, rgb(4, 0, 240),rgb(0, 128, 119));
+    padding: 15px;
+}
+.main .name
+{
+    display: flex;
+    font-size: 72px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+
+    font-weight: 700;
+    transition: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+.main .p1
+{
+    padding: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+}
+#aboutme
+{
+    border: 2px black solid;
+    height: 50vh;
+    background: linear-gradient(180deg, rgb(4, 0, 240),rgb(0, 128, 119));
+    padding: 15px;
+}
+#aboutme .p2
+{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
